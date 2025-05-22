@@ -15,6 +15,8 @@ Collecting_job_data_using_APIs-Lab.ipynb:  Notebook que interactúa con la API c
 jobs.json:  Contiene las ofertas de trabajo en formato JSON.  
 Job-postings.xlsx: Archivo Excel generado por el notebook con los resultados de las consultas a la API.  **Se incluye en este repositorio** para facilitar la visualización del resultado sin necesidad de ejecutar el notebook.
 
+
+### Cómo usar
 Ejecuta Jobs_API.py para iniciar la API en http://127.0.0.1:5000.
 
 Abre y ejecuta Collecting_job_data_using_APIs-Lab.ipynb para consultar datos de tecnologías específicas y guardar los resultados en Excel.
