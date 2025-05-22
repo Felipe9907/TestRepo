@@ -1,9 +1,20 @@
-**IBM Data Analyst Capstone Project – Módulo 1**
-Este repositorio contiene dos archivos principales desarrollados como parte del Módulo 1 del curso IBM Data Analyst Capstone Project:
+# IBM Data Analyst Capstone Project – Módulo 1  
+## Jobs_API & Colecta de datos con APIs
 
-Jobs_API.py: Implementación de una API sencilla utilizando Flask, que permite realizar búsquedas en un conjunto de datos de ofertas laborales (archivo jobs.json) filtrando por tecnologías, ubicación, experiencia, industria, entre otros campos.
+Este repositorio contiene dos archivos principales desarrollados como parte del **Módulo 1** del proyecto final del curso **IBM Data Analyst Capstone Project**:
 
-Collecting_job_data_using_APIs-Lab.ipynb: Notebook en el que se consumen los datos expuestos por la API. Se realizan múltiples llamadas para obtener información sobre la cantidad de ofertas relacionadas con diferentes tecnologías y se almacenan los resultados para análisis posterior.
+### Contenido
 
-El objetivo de esta práctica es desarrollar habilidades para construir y consumir APIs REST, procesar respuestas en formato JSON y automatizar la recopilación de datos usando Python.
-**Nota:** Asegúrate de que el archivo `jobs.json` se encuentre en la misma carpeta que `Jobs_API.py`, ya que la API depende de él para cargar los datos.
+Jobs_API.py: Implementa una API local en Flask que sirve datos de ofertas de empleo cargados desde el archivo `jobs.json`.  
+  Permite realizar búsquedas filtradas por tecnología, ubicación y otros campos.
+Collecting_job_data_using_APIs-Lab.ipynb:  Notebook que interactúa con la API creada en `Jobs_API.py`, consultando los datos de tecnologías específicas y generando un archivo Excel con los resultados obtenidos.
+
+---
+
+### Archivos adicionales
+jobs.json:  Contiene las ofertas de trabajo en formato JSON.  
+Job-postings.xlsx: Archivo Excel generado por el notebook con los resultados de las consultas a la API.  **Se incluye en este repositorio** para facilitar la visualización del resultado sin necesidad de ejecutar el notebook.
+
+Ejecuta Jobs_API.py para iniciar la API en http://127.0.0.1:5000.
+
+Abre y ejecuta Collecting_job_data_using_APIs-Lab.ipynb para consultar datos de tecnologías específicas y guardar los resultados en Excel.
